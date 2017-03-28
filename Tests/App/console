@@ -9,7 +9,7 @@ if (!file_exists($file)) {
 }
 $autoload = require_once $file;
 
-require_once __DIR__.'/AppKernel.php';
+#require_once __DIR__.'/AppKernel.php';
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;

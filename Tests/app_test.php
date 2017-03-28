@@ -16,7 +16,7 @@ AnnotationRegistry::registerLoader(function($class) use ($autoload) {
     return class_exists($class, false);
 });
 
-require_once __DIR__.'/App/AppKernel.php';
+#require_once __DIR__.'/App/AppKernel.php';
 
 $kernel = new AppKernel('test', true);
 $kernel->loadClassCache();
